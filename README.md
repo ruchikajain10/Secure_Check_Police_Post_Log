@@ -20,7 +20,7 @@ import mysql.connector
 mydb=mysql.connector.connect(
     host="localhost",
     user="root",
-    password=""
+    password="12345678"
 )
 mycursor=mydb.cursor()
 print("your SQL is connected")
